@@ -98,3 +98,72 @@ Puesdes tener un background desde Java para aprender cualquier de los programas 
 
 --------------------------------------------------
 ## Python lidera hoy en día el desarrollo del machine learning 
+
+La continua implementación de modulos y nuevas conexiones con distintas inteligencías artificiales hacen que python se una de las grandes apuestas por ser el programa número uno en materia de ciencia de datos.
+
+En Python, existen varias bibliotecas populares para el desarrollo de machine learning. Aquí hay una descripción detallada de algunas de las principales bibliotecas y sus módulos, junto con ejemplos de uso:
+
+- **scikit-learn**:
+
+Descripción: scikit-learn es una biblioteca de machine learning de propósito general que ofrece una amplia gama de algoritmos y herramientas para tareas de clasificación, regresión, agrupamiento, reducción de dimensionalidad y más.
+Ejemplos de módulos:
+sklearn.linear_model: Proporciona modelos de regresión lineal, como la regresión lineal ordinaria, la regresión logística, etc.
+sklearn.tree: Contiene implementaciones de árboles de decisión, como el árbol de decisión clásico y el bosque aleatorio.
+sklearn.cluster: Ofrece algoritmos de clustering, como k-means y DBSCAN.
+sklearn.model_selection: Proporciona funciones para dividir los datos en conjuntos de entrenamiento y prueba, así como para realizar validación cruzada.
+sklearn.metrics: Incluye métricas de evaluación de modelos, como precisión, recall, puntuación F1, etc.
+Ejemplo de uso:
+
+
+```Python
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error
+
+# Crear un modelo de regresión lineal
+model = LinearRegression()
+
+# Dividir los datos en conjuntos de entrenamiento y prueba
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+
+# Entrenar el modelo
+model.fit(X_train, y_train)
+
+# Realizar predicciones
+y_pred = model.predict(X_test)
+
+# Calcular el error cuadrático medio
+mse = mean_squared_error(y_test, y_pred)
+
+```
+- **TensorFlow**:
+
+Descripción: TensorFlow es una biblioteca de código abierto desarrollada por Google que se centra en la creación y entrenamiento de modelos de deep learning. Proporciona un entorno para construir redes neuronales y realizar cálculos numéricos eficientes en GPUs.
+Ejemplos de módulos:
+tensorflow.keras: Ofrece una API de alto nivel para construir y entrenar modelos de deep learning utilizando la interfaz de Keras.
+tensorflow.data: Proporciona herramientas para la manipulación y preprocesamiento eficiente de grandes conjuntos de datos.
+tensorflow.image: Contiene funciones para el procesamiento y la manipulación de imágenes, como la carga, el aumento de datos y la normalización.
+Ejemplo de uso:
+
+```Python
+import tensorflow as tf
+from tensorflow import keras
+
+# Crear un modelo de red neuronal secuencial
+model = keras.Sequential([
+    keras.layers.Dense(64, activation='relu', input_shape=(784,)),
+    keras.layers.Dense(10, activation='softmax')
+])
+
+# Compilar el modelo
+model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+
+# Entrenar el modelo
+model.fit(X_train, y_train, epochs=10, batch_size=32)
+
+# Evaluar el modelo
+loss, accuracy = model.evaluate(X_test,
+
+```
+En este mismo repositorio podras encontrar una explicación de estas librerias y de cada uno de sus modulos con ejemplos practicos.
+
