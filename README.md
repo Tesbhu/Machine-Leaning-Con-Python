@@ -21,7 +21,9 @@ El proceso de machine learning generalmente implica los siguientes pasos:
 7. Predicción y toma de decisiones: Una vez que el modelo ha sido entrenado y evaluado, se puede utilizar para realizar predicciones o tomar decisiones sobre nuevos datos. El modelo aprenderá de estas interacciones y su rendimiento mejorará con el tiempo.
 
 El machine learning se aplica en una amplia variedad de campos, como el reconocimiento de voz, la visión por computadora, el procesamiento del lenguaje natural, la detección de fraudes, la recomendación de productos y mucho más. Su potencial radica en su capacidad para procesar grandes cantidades de datos y encontrar patrones complejos que serían difíciles de descubrir con enfoques tradicionales
+
 ---------------------------------------------------
+
 ## ¿A que área de estudio pertenece el Machine Learning?
 
 Quizas tengas pensado estudiar inteligencia artificial porque has escuchado que es una de las carreras del futuro o has visto que la demanda por cientifico de datos es muy alta y en muchos casos bien remunerada, como el uso de una computadora es impresendible posiblemente creas que una ingeniería en sistemas, ciencias de la computación o alguna otra que exista en tu país, actualmente la carrera de cientifico de datos por lo menos en México es nueva pues en 2020 la UNAM abrío dicha carrera, te invito que indages acerca del programa de estudios y su secuencia para que tengas una idea de como planean las instituciones que es la mejor forma de aprender esta disciplina. En mi experiencia he trabajado con matemátiocs, actuarios, ingenieros industriales, fisicos entre muchos otros ¿Lo notaste? cada uno de ellos tiene una formación en matemáticas, pero ¿En realidad se puede aprender Machine Learning sin saber cosas avanzadas?
